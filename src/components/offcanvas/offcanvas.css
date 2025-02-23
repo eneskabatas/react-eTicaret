@@ -1,0 +1,154 @@
+.offcanvas{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10000;
+    background-color: var(--navbar-clr);
+    padding: 1rem;
+    height: 100vh;
+    /* animation: slideMenu 0.3s ease forwards; */
+    transition: all 0.3s;
+    overflow-y: scroll;
+    width: 500px;
+    scrollbar-color: var(--footer-clr) var(--navbar-clr);
+    scrollbar-width: thin;
+}
+
+@keyframes slideMenu {
+    from {
+        opacity: 0;
+        transform: translateX(25rem);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.cardHead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:  1px solid #ccc;
+    padding-bottom: 1rem;
+}
+
+.cardClose {
+    font-size: 24px;
+    color: black;
+    cursor: pointer;
+}
+
+.total{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    padding: 1rem 0;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.actions button {
+    cursor: pointer;
+    width: 100%;
+    padding: 0.5rem 2rem;
+    border-radius: 25px;
+    margin-bottom: 1rem;
+    font-size: 18px;
+    border: 1px solid black;
+    transition: all 0.3s;
+}
+
+.cardOrder{
+    background-color: var(--footer-clr);
+    color: var(--navbar-clr)
+}
+
+.cardClear{
+    background-color: var(--btn-clr);
+    color: var(--navbar-clr);
+    border:1px solid var(--btn-clr)
+}
+
+.cardClear:hover{
+    background-color: white;
+    color: rgb(243, 24, 24);
+    border-color:rgb(243, 24, 24);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.cardOrder:hover{
+    background-color: white;
+    color: blueviolet;
+    border-color: blueviolet;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.cardClose:hover{
+    opacity: 0.5;
+}
+
+
+/* cardItemcss */
+
+.offCardImg img{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.offCardItem{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 5px;
+    padding: 20px 0;
+}
+
+.offCardInfo{
+    display: flex;
+    column-gap: 20px;
+}
+
+.offCardText{
+    text-align: end;
+    width: 250px;
+}
+
+.priceGroup{
+    margin-top: 1rem;
+}
+
+.offCardRemove{
+    color: var(--btn-clr);
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.offCardRemove:hover{
+    color: red;
+    scale: 1.1;
+}
+
+.backdrop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.basket{
+    padding: 1rem 4rem;
+    border: 1px solid #ccc;
+    color: rgb(243, 24, 24);
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+}

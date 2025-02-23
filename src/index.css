@@ -1,0 +1,22 @@
+:root{
+  --navbar-clr:#fff9ec;
+  --hero-clr:#ffdccc;
+  --section-clr:#fcb1a6;
+  --footer-clr:#5D2A42;
+  --btn-clr:#FB6376
+}
+
+*{
+  margin: 0;
+  padding:0;
+  box-sizing:border-box;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+  visibility: hidden;
+  opacity: 0
+}

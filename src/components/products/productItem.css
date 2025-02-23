@@ -1,0 +1,87 @@
+.productCard{
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 1rem;
+    background-color: var(--navbar-clr);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    color: black;
+}
+
+.productCardImg{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 1rem;
+}
+
+.productCardInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.productCardPrice{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.addToCard{
+    background-color: var(--btn-clr);
+    color: var(--navbar-clr);
+    border: none;
+    border-radius: 5px;
+    padding: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 18px;
+}
+
+.addToCard:hover{
+    background-color: var(--footer-clr);
+    /* background-color: black;
+    color: thistle; */
+    /* font-weight: bold; */
+}
+
+.productCardTitle{
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.productCardDesc{
+    border-bottom: 1px dashed rgb(172, 171, 171);
+    padding-bottom: 1rem;
+    height: 100px;
+    overflow-y: scroll;
+    scrollbar-color: var(--footer-clr) var(--navbar-clr);
+    scrollbar-width: thin;
+}
+
+
+.btnContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.detailBtn{
+    margin: 1rem;
+}
+
+.detailBtn button {
+    background-color: var(--btn-clr);
+    color: var(--navbar-clr);
+    border: none;
+    border-radius: 5px;
+    padding: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 18px;
+    width: 100% ;
+}
+
+.detailBtn button:hover{
+    background-color: var(--footer-clr);
+}

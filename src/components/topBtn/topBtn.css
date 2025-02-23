@@ -1,0 +1,18 @@
+.topBtnContainer{
+    position: fixed;
+    bottom: 0;
+    right: 25px;
+}
+
+.topBtn{
+    padding: 1rem;
+    cursor: pointer;
+    background-color: rgba(240, 248, 255, 0.616);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.activeScroll{
+    display: flex;
+}

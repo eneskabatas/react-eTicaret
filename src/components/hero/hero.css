@@ -1,0 +1,7 @@
+.heroContainer{
+    position: relative;
+    margin-top: 90px;
+    padding: 10px 0;
+    background-color: var(--hero-clr);
+    color: var(--footer-clr);
+}
