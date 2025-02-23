@@ -1,8 +1,13 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Fake bir ürün api'sinden ürün listeleri axios yardımıyla getirildi.
 
-Currently, two official plugins are available:
+useContext ile bir veri paketi yaratıldı ve proje yönetimi buradan sağlandı.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+sepet portal özelliği kullanılarak bir tüm sayfalarda render edilecek sekilde offcanvas şeklinde tasarlandı.
+
+sepet işlemleri ise useReducer ile yönetildi.
+
+bu şeklide performanslı ve redux paketine bağımlı kalmadan kendi redux sistemimi olusturmus oldum.
+
+
